@@ -62,6 +62,7 @@ class ViewController: UIViewController {
             self.nextButton.backgroundColor = UIColor.black
             self.backButton.backgroundColor = UIColor.black
             status = 1
+            
         }
         else{
             startStopButton.setTitle("再生", for: .normal)
@@ -112,11 +113,18 @@ class ViewController: UIViewController {
     }
     
     
+    @IBOutlet var tapImage: UITapGestureRecognizer!
     @IBAction func tapImage(_ sender: Any) {
         performSegue(withIdentifier: "result", sender: nil)
+        //self.timer.invalidate()
+        //timer = nil
     }
     
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
+        if status == 1{
+                    //timer = nil
+                    //self.timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(updateSlide(_:)), userInfo: nil, repeats: true)
+                }
         }
 }
 
