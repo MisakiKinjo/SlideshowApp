@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hch-Yc-SN6">
-                                <rect key="frame" x="174" y="611" width="67" height="31"/>
+                                <rect key="frame" x="174" y="611" width="0.0" height="0.0"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="LS2-uk-vT9"/>
                                 </constraints>
@@ -28,7 +28,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uto-wL-vbN">
-                                <rect key="frame" x="65" y="611" width="53" height="31"/>
+                                <rect key="frame" x="65" y="611" width="0.0" height="0.0"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="kZb-oI-cmv"/>
                                 </constraints>
@@ -39,7 +39,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LdR-RH-PVK">
-                                <rect key="frame" x="296" y="611" width="53" height="31"/>
+                                <rect key="frame" x="296" y="611" width="0.0" height="0.0"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="0ph-jw-fCP"/>
                                 </constraints>
@@ -102,7 +102,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Yhz-ac-cAq">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="708"/>
+                                <rect key="frame" x="0.0" y="0.0" width="124" height="555"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="euu-rJ-qNC">
                                 <rect key="frame" x="174" y="744" width="66" height="31"/>
